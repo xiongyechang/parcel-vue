@@ -1,6 +1,6 @@
-const get_list = (state, params) => {
-	state.list = params.arr;
-	state.count = params.len;
+const get_list = (state, data) => {
+	state.list = data
+	state.count = data.length;
 }
 
 export default {

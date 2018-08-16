@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<p>login</p>
+		<p>welcome to login page</p>
 	</div>
 </template>
 

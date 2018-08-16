@@ -1,17 +1,17 @@
 <template>
 	<div id="app">
-		<router-view></router-view>
-		<!-- <user/> -->
+		<div>
+			<router-link to="/login">login</router-link>
+			<router-link to="/home">home</router-link>
+			<router-link to="/user">user</router-link>
+		</div>
+		<router-view/>
 	</div>
 </template>
 
 <script type="text/ecmascript-6">
-	import user from './views/User/User';
 	export default {
 		name: 'app',
-		components: {
-			user
-		}
 	}
 </script>
 

@@ -30,7 +30,7 @@
 			this.getlist(pages);
 		},
 		mounted(){
-
+			console.log(this.count);
 		},
 		data(){
 			return {

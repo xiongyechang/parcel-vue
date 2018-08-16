@@ -15,6 +15,7 @@
     "posthtml": "^0.11.3",
     "vue": "^2.5.17",
     "vue-hot-reload-api": "^2.3.0",
+    "vue-loader": "^15.3.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },

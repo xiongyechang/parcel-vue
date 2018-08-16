@@ -1,13 +1,9 @@
-import Vue from 'Vue';
+import Vue from 'vue';
 import Router from 'vue-router';
-
-Vue.use(Router);
-
 const Login = () => import('../views/Login/Login.vue');
 const Home = () => import('../views/Home/Home.vue');
 const User = () => import('../views/User/User.vue');
-
-
+Vue.use(Router);
 const routes = [
 	{
 		path: '/login',
@@ -29,16 +25,11 @@ const routes = [
 		redirect: '/login'
 	}
 ];
-
 const router = new Router({
-	routes
+	routes: routes
 });
-
-
 // router.beforeEach((to, from, next) => {
 // 	console.log(to,from,next);
 // });
-
-
 export default router
 

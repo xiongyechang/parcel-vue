@@ -1,11 +1,11 @@
 <template>
 	<div id="app">
-		<!-- <router-view></router-view> -->
-		<user/>
+		<router-view></router-view>
+		<!-- <user/> -->
 	</div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 	import user from './views/User/User';
 	export default {
 		name: 'app',
